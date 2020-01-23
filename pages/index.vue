@@ -2,6 +2,7 @@
   <v-container fluid>
     <v-layout row wrap>
     <p>Lida</p>
+    <h1>Lida</h1>
       <v-flex xs12 sm12 md6 lg4 v-for="img in imgSet" :key="img">
           <ImgComponent :input="img"/>
       </v-flex>
